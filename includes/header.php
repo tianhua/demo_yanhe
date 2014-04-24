@@ -44,7 +44,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
+            <li <?php if( $CURRENT_PAGE == 'index') echo ' class="active"'; ?>><a href="index.php">首页</a></li>
             <li><a href="#about">关于研和</a></li>
             <li><a href="#contact">产品介绍</a></li>
             <li class="dropdown">
@@ -59,7 +59,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-            <li><a href="#contact">品牌介绍</a></li>
+            <li <?php if( $CURRENT_PAGE == 'brand') echo ' class="active"'; ?>><a href="brand.php">品牌介绍</a></li>
             <li><a href="#contact">联系我们</a></li>
              <li><a href="#contact">English</a></li>
           </ul>
