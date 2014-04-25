@@ -1,0 +1,26 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  display: block;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+
+@media screen and (min-aspect-ratio: 16/9)
+{
+  .yh-wide{display:block !important;}
+}
+
+@media screen and (max-aspect-ratio: 4/3)
+{
+	.yh-wide{display:none}
+	.well{ color: red !important;}
+}
